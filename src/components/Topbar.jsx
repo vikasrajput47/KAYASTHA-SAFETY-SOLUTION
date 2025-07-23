@@ -3,23 +3,25 @@ import SocialMedia from "./SocialMedia";
 
 const Topbar = () => {
   return (
-    <div className="w-full bg-[#1E164A] text-white px-4 py-2 flex flex-col md:flex-row items-center md:justify-between gap-2">
-      <div className="support flex flex-col sm:flex-row items-center gap-3">
-        <div className="flex items-center gap-2">
+    <div className="w-full bg-[#1E164A] h-12 text-white flex items-center md:justify-between justify-center pl-12 pr-12">
+      <div className="support flex">
+        <div className="flex gap-2 mr-3">
           <img
-            className="w-4"
+            className="sm:w-[16px]"
             src="/images/telephone-call.png"
             alt="telephone"
           />
-          <p className="text-sm">9013807874</p>
+          <p className="text-sm">+91 8825114085</p>
         </div>
-        <div className="flex items-center gap-2">
-          <img className="w-4" src="/images/email.png" alt="email" />
-          <p className="text-sm">support@kmpower.in</p>
+        <div className="flex gap-2">
+          <img className="sm:w-[16px]" src="/images/email.png" alt="email" />
+          <p className="text-sm">kayasthasafetysolution@gmail.com</p>
         </div>
       </div>
 
-      <div className="intouch hidden md:block">{/* <SocialMedia/> */}</div>
+      <div className="intouch hidden md:block">
+        {/* <SocialMedia /> */}
+      </div>
     </div>
   );
 };

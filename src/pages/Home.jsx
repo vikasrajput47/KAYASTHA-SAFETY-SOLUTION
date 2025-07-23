@@ -41,21 +41,27 @@ function Home() {
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
         {/* Content */}
-        <div className="absolute z-10 text-center p-8 rounded-lg">
-          <h1 className="text-6xl font-extrabold leading-tight mb-6 text-yellow-400">
-            Protecting Lives & Property
-          </h1>
-          <p className="text-xl sm:text-2xl font-light max-w-3xl mb-8 text-gray-200">
-            We are the leading Fire Protection Company providing top-notch fire
-            safety equipment and emergency solutions.
-          </p>
-          <a
-            href="/catalogue.pdf"
-            download="Catalogue.pdf"
-            className="px-8 py-4 bg-red-700 hover:bg-red-800 text-white font-semibold rounded-full shadow-lg transform transition duration-300 hover:scale-105"
-          >
-            Learn More
-          </a>
+        <div className="absolute inset-0 z-10 flex items-center justify-center">
+          <div className="text-center p-8 rounded-lg">
+            <h1 className="text-4xl sm:text-6xl font-extrabold leading-tight mb-6 text-yellow-400">
+              Welcome to Kayastha Safety Solution
+            </h1>
+            <p className="text-xl sm:text-xl font-normal max-w-7xl mb-8 text-gray-200 mx-auto">
+              Kayastha Safety Solution is a trusted MSME provider of fire safety
+              services, dedicated to protecting lives, property, and the
+              environment. Founded in 2025, we deliver tailored, high-standard
+              solutions for residential, commercial, institutional, and
+              industrial spaces, with a focus on prevention, preparedness, and
+              protection.
+            </p>
+            <a
+              href="/catalogue.pdf"
+              download="Catalogue.pdf"
+              className="px-8 py-4 bg-red-700 hover:bg-red-800 text-white font-semibold rounded-full shadow-lg transform transition duration-300 hover:scale-105"
+            >
+              Learn More
+            </a>
+          </div>
         </div>
       </section>
     </>

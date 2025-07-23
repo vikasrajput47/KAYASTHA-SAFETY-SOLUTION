@@ -2,17 +2,16 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Services2 from "./pages/Services2";
-import Contact from "./pages/Contact";
-import ContactForm from "./pages/Contact_us";
+import Contact from "./pages/Contact_us";
+import ContactForm from "./pages/ContactForm";
 
 function App() {
   return (
     <div>
       <Home />
-  
-      <About />
       <Services />
-   
+      <About />
+   <Contact/>
       <ContactForm/>
     </div>
   );
