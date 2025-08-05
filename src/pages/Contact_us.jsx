@@ -38,7 +38,7 @@ const ContactUs = () => {
         {/* Right Side - Logo */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img
-            src="/images/logo.png" // Replace this path as needed
+            src="/images/logo-2.jpg" // Replace this path as needed
             alt="Kayastha Safety Solution Logo"
             className="w-[280px] h-[280px] object-contain border border-gray-300 rounded-full p-4 bg-white shadow-md"
           />
